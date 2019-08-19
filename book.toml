@@ -1,0 +1,6 @@
+[book]
+authors = ["Keichi Takahashi"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "ミニ・スーパコンピュータを自作しよう！"
