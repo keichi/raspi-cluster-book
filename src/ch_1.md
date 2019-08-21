@@ -1,8 +1,20 @@
-# クラスタの構築
+# Raspberry Piの操作
 
-本セミナーでは安価かつ小型で取り扱いが容易なためRaspberry Piを用います．
+## ターミナル
 
-- 1.1 [OSのインストール](./ch_1_1.md)
-- 1.2 [SSHの設定](./ch_1_2.md)
-- 1.3 [NFSの設定](./ch_1_3.md)
-- 1.4 [MPIの設定](./ch_1_4.md)
+Linuxでは，コマンドと呼ばれる命令によって
+
+![ターミナルのアイコン](img/terminal_icon.png)
+
+![ターミナル](img/raspi_terminal.png)
+
+## ファイルマネージャ
+
+![ファイルマネージャのアイコン Desktop2](img/fileman_icon.png)
+
+![ファイルマネージャ](img/raspi_fileman.png)
+
+## エディタ
+
+![Leafpad](img/leafpad.png)
+
