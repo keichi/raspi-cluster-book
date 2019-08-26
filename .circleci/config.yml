@@ -8,12 +8,20 @@ jobs:
       - checkout
 
       - run:
+          name: Update apt index
+          command: apt update
+
+      - run:
           name: Install pip3
-          command: apt install python3-pip
+          command: apt install -y python3-pip
 
       - run:
           name: Install awscli
           command: pip3 install awscli
+
+      - restore_cache:
+          keys:
+            - cargo-cache
 
       - run:
           name: Install mdbook
@@ -25,4 +33,9 @@ jobs:
 
       - run:
           name: Upload HTML files to S3
-          command: aws s3 --delete sync build/ s3://ssh-textbook.keichi.net
+          command: aws s3 --delete sync book/ s3://ssh-textbook.keichi.net
+
+      - save_cache:
+          key: cargo-cache
+          paths:
+            - "~/.cargo"
