@@ -1,6 +1,6 @@
 # Summary
 
-[表紙](./coverpage.md)
+[まえがき](./coverpage.md)
 
 - [Raspberry Piの操作](./ch_1.md)
 - [クラスタの構築](./ch_2.md)

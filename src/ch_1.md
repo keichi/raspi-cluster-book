@@ -5,11 +5,11 @@
 
 安価かつ小型で取り扱いが容易なためRaspberry Piを用います．
 
-
+![デスクトップ](img/raspi_desktop.png)
 
 ## ファイルマネージャ
 
-![ファイルマネージャのアイコン Desktop2](img/fileman_icon.png)
+![ファイルマネージャのアイコン](img/fileman_icon.png)
 
 ![ファイルマネージャ](img/raspi_fileman.png)
 
