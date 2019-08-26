@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: rust:1.37
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install pip3
+          command: apt install python3-pip
+
+      - run:
+          name: Install awscli
+          command: pip3 install awscli
+
+      - run:
+          name: Install mdbook
+          command: cargo install mdbook
+
+      - run:
+          name: Build HTML files
+          command: mdbook build
+
+      - run:
+          name: Upload HTML files to S3
+          command: aws s3 --delete sync build/ s3://ssh-textbook.keichi.net
