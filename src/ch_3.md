@@ -71,3 +71,7 @@ sys	0m0.060s
 このプログラムは1つのRaspberry Pi上の1つのCPUコアしか活用できません．
 以降ではこのプログラムを並列化し，複数のRaspberry Pi上の複数のCPUコアを利用す
 ることで，高速化します．
+
+### 参考文献
+
+- [計算科学技術特論A (2019)](https://www.r-ccs.riken.jp/library/event/tokuronA_2019.html)
