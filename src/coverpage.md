@@ -9,4 +9,4 @@
 
 説明に用いたスライドは [こちら](img/ssh-labstay.pdf)
 
-奈良先端科学技術大学院大学 [ソフトウェア設計学研究室](https://sdlab-web.naist.jp/)
+奈良先端科学技術大学院大学 [ソフトウェア設計学研究室](https://sdlab.naist.jp/)
