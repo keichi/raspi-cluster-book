@@ -62,19 +62,19 @@ CUIによる操作を行うためには，**ターミナル**というソフト�
 ## テキストエディタ
 
 設定ファイルなどのテキストファイルを編集するためには，テキストエディタを使用します．
-Raspberry PiにはLeafpadというエディタがインストールされています．
+Raspberry PiにはMousepadというエディタがインストールされています．
 Windowsのメモ帳に対応します．
 
-![Leafpad](img/leafpad.png)
+![Mousepad](img/mousepad.png)
 
-Leafpadでファイルを編集するには，ターミナル上で下記のコマンドを実行します．
+Mousepadでファイルを編集するには，ターミナル上で下記のコマンドを実行します．
 
 ```text
-$ leafpad ファイル名
+$ mousepad ファイル名
 ```
 
 また，編集に管理者権限が必要なファイルを編集するには，`sudo`と組み合わせます．
 
 ```text
-$ sudo leafpad ファイル名
+$ sudo mousepad ファイル名
 ```
